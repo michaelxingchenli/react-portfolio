@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navigation from "./Navigation";
 
 const Header = (props) => {
@@ -10,7 +10,7 @@ const Header = (props) => {
     var networks = props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a target="_blank" href={network.url}>
+          <a target="_blank" rel="noopener noreferrer" href={network.url}>
             <i className={network.className}></i>
           </a>
         </li>

@@ -1,7 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
 
-function Navigation(props) {
+function Navigation() {
   return (
     <nav id="nav-wrap">
       <a className="mobile-btn" href="#nav-wrap" title="Show navigation">

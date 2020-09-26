@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Resume = (props) => {
   //  const [softskills, setSoftskills] = useState([]);

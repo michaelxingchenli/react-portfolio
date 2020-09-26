@@ -1,23 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
-const Footer = (props) => {
-  if (props.data) {
-    var networks = props.data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a target="_blank" href={network.url}>
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-  }
-
-  return (
+const Footer = ({ data }) => {
+  return data ? (
     <footer>
       <div className="row">
         <div className="twelve columns">
-          <ul className="social-links">{networks}</ul>
+          <ul className="social-links">
+            {data.social.map((network) => (
+              <li key={network.name}>
+                <a target="_blank" rel="noopener noreferrer" href={network.url}>
+                  <i className={network.className}></i>
+                </a>
+              </li>
+            ))}
+          </ul>
         </div>
         <div id="go-top">
           <a className="smoothscroll" title="Back to Top" href="#home">
@@ -32,6 +28,8 @@ const Footer = (props) => {
         </div>
       </div>
     </footer>
+  ) : (
+    ""
   );
 };
 
