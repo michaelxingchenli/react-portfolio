@@ -95,10 +95,10 @@
   "portfolio": {
     "projects": [
       {
-        "title": "TODO",
-        "category": "full stack to-do list build with MERN(MongoDB, ExpressJS, ReactJS, NodeJS)",
-        "image": "todo.jpg",
-        "url": "https://my-react-redux-todo-list.herokuapp.com/"
+        "title": "SF design system",
+        "category": "Minimalist React design system ",
+        "image": "design-system.jpg",
+        "url": "https://designsystem.sf-hi.com/"
       },
       {
         "title": "Recipes",
@@ -107,16 +107,22 @@
         "url": "https://receipe-8d45e.web.app/"
       },
       {
+        "title": "Chat",
+        "category": "instant message app build with React, Firebase and Google authentication",
+        "image": "chat.jpg",
+        "url": "https://vibey-chat.web.app/"
+      },
+      {
         "title": "Google Clone",
         "category": "build with React and Google Custom Search API",
         "image": "google-clone.jpg",
         "url": "https://clone-b3863.web.app/"
       },
       {
-        "title": "Chat",
-        "category": "instant message app build with React, Firebase and Google authentication",
-        "image": "chat.jpg",
-        "url": "https://vibey-chat.web.app/"
+        "title": "TODO",
+        "category": "full stack to-do list build with MERN(MongoDB, ExpressJS, ReactJS, NodeJS)",
+        "image": "todo.jpg",
+        "url": "https://my-react-redux-todo-list.herokuapp.com/"
       }
     ]
   }
